@@ -1,0 +1,101 @@
+body{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Parrot.red.macaw.1.arp.750pix.jpg/330px-Parrot.red.macaw.1.arp.750pix.jpg');
+}
+
+h1{
+    text-align: center;
+    color: aqua;
+    border: solid 3px yellow;
+    border-radius: 50px;
+    background-color: darkorchid;
+}
+
+
+.dodoe{
+    display:flex;
+    border-radius: 50px;
+  justify-content:center; 
+}
+
+a{
+    color: coral;
+    border-radius: 50px;
+    border: 3px solid yellowgreen;
+    background-color: blueviolet;
+    opacity: 0.5;
+}
+
+
+.pico{
+justify-content:center;
+display: flex;
+border: solid 20px blue;
+}
+
+.pico:hover{
+border: 20px solid red;
+
+}
+
+a:hover{
+    opacity: 1;
+}
+
+main{
+   background-color: blueviolet;
+ color: aqua;
+}
+
+main:hover{
+    background-color: aqua;
+    color: blueviolet;
+    transition: 1s;
+}
+
+li{
+    border: solid 3px lime;
+    border-radius: 25px;
+}
+
+li:hover{
+     border: solid 3px yellow;
+    border-radius: 25px;
+    color:indigo;
+     background-image:  linear-gradient(to bottom,gold,yellow,orange,brown);
+     transition: 1s;
+}
+
+footer{
+     justify-content:center;
+display: flex;
+
+}
+
+p{
+    color: orange;
+    text-align: center;
+}
+
+p:hover{
+    background-image:  linear-gradient(to bottom,yellow,blue,green,orange);
+    border-radius: 25px;
+    border: solid 3px lime;
+    transition: 1s;
+}
+ 
+a:hover{
+      background-image:  linear-gradient(to bottom,yellowgreen,gold) ;
+      color: black;
+      transition: 1s;
+}
+
+
+.rak{
+    justify-content:center;
+display: flex;
+border: solid 20px black;
+}
+
+.rak:hover{
+border: 20px solid yellow;
+}
